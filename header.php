@@ -50,7 +50,7 @@
             </div>
 		</div><!-- .site-branding -->
 
-        <nav id="flaunt-sidebar">
+        <nav id="flaunt-sidebar" class='sidebar-active'>
            <!-- Avatar -->
         <?php echo_sidebar_avatar() ?>
             <!--Side navbar menu  -->
@@ -66,6 +66,15 @@
 					);
 
 				?>
+
+    <footer id="colophon" class="site-footer">
+		<div class="site-info">
+			Flaunt
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+    
         </nav>
+            
 
 	</header><!-- #masthead -->
+

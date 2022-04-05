@@ -229,7 +229,7 @@ function echo_sidebar_avatar() {
 	if ($id != 0) {
 		
 		$url = wp_get_attachment_url($id);
-		echo '<div style="margin-bottom: 30px;">';
+		echo '<div class="flaunt-sidebar-avatar">';
         echo '<img src="' . $url . '" alt="" />';
         echo '</div>';
 	}

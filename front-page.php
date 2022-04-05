@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-Something here 
-<?php
+
+    <?php
 get_footer();
 ?>
